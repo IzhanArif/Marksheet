@@ -1,0 +1,44 @@
+void main() {
+ 
+  print ("                   ASSIGNMENT 2          ");
+  print ("               TO CREATE MARKSHEET         ");
+  print ("               -------------------");
+  print ("\nNAME:        IZHAN");
+  print ("FATHER NAME: MUHAMMAD ARIF");
+  print ("INSTITUTE NAME: JAWAAN PAKISTAN");
+  print ("-------------------------------");
+  var urdu = 54;
+  var eng = 68;
+  var maths = 82;
+  var sci = 85;
+  var phy = 79;
+  var total = 500;
+  var obt_marks = 368;
+  var perc = 368/500*100;
+  print ("\n S.NO.      SUBJECT     TOTAL MARKS     MARKS OBTAINED");
+  print ("--------------------------------------------------------");
+  print ("  1.         URDU          100               54");
+  print ("  2.        ENGLISH        100               68");
+  print ("  3.         MATHS         100               82");
+  print ("  4.        SCIENCE        100               85");
+  print ("  5.        PHYSICS        100               79");
+  print ("--------------------------------------------------------");
+  print ("\nTOTAL MARKS = ${total}");
+  print ("MARKS OBTAINED = ${urdu+eng+maths+sci+phy}");
+  print ("PERCENTAGE = ${perc}%");
+  if (perc>=80){
+    print("GRADE = A+");
+  }
+   else if (perc>= 70){
+    print ("GRADE = A");
+  }
+  else {
+    print ("GRADE = B");
+  }
+    print ("--------------------------------------------------------");
+  print ("REMARKS = IZHAN HAS GOT ${obt_marks} MARKS OUT OF ${total} MARKS, AND HIS PERCENTAGE IS ${perc}%");
+  
+  
+  
+  
+  }
